@@ -1,5 +1,12 @@
 /* General Styling */
 
+@media screen and (min-width: 900px)
+{
+    .mainContainer dd{
+        padding-left: 250px;
+    }
+}
+
 :root {
     --primaryTextColor: #929aab;
     --secondaryTextColor: #eeeeee;
