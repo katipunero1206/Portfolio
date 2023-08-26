@@ -1,111 +1,109 @@
 /* General Styling */
 
-@media screen and (min-width: 900px)
-{
-    .mainContainer dd{
-        padding-left: 250px;
-    }
+@media screen and (min-width: 900px) {
+  .mainContainer dd {
+    padding-left: 250px;
+  }
 }
 
 :root {
-    --primaryTextColor: #929aab;
-    --secondaryTextColor: #eeeeee;
-  }
-  
-  body {
-    background-color: #f7f7f7;
-    color: var(--primaryTextColor);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  a {
-    color: var(--primaryTextColor);
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    border: 1px solid darkgrey;
-    border-radius: 5px;
-    color: var(--primaryTextColor);
-    padding: 10px;
-  }
+  --primaryTextColor: #929aab;
+  --secondaryTextColor: #eeeeee;
+}
 
-  /* Navigation Bar Styling*/
+body {
+  background-color: #f7f7f7;
+  color: var(--primaryTextColor);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: var(--primaryTextColor);
+  text-decoration: none;
+}
+
+li a:hover {
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  color: var(--primaryTextColor);
+  padding: 10px;
+}
+
+/* Navigation Bar Styling*/
 
 .navBarContainer {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    border-bottom: 1px solid darkgrey;
-  }
-  
-  .navBarContainer button{
-    background-color: dodgerblue;
-    border: 1px;
-    border-radius: 10px;
-    color: var(--secondaryTextColor);
-    padding: 10px;
-  }
-  
-  .navBarContainer button:hover{
-    background-color: skyblue;
-    cursor: pointer;
-  }
-  
-  .navBar ul li {
-    display: inline-block;
-    padding: 0 20px;
-  }
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-bottom: 1px solid darkgrey;
+}
 
-  h1:hover{
-    cursor: pointer;
-  }
+.navBarContainer button {
+  background-color: dodgerblue;
+  border: 1px;
+  border-radius: 10px;
+  color: var(--secondaryTextColor);
+  padding: 10px;
+}
 
-  /* Main Content Styling */
+.navBarContainer button:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
 
-  .mainContainer{
-    display: flex;
-    flex-direction: column;
-  }
+.navBar ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
 
-  .mainContainer div{
-    display: flex;
-    width: 90vw;
-    height: 900px;
-    justify-content: center;
-    align-items: center; 
-  }
+h1:hover {
+  cursor: pointer;
+}
 
-  #mainTag{
-    font-size: 72px;
-    font-weight: normal;
-    padding: 10px;
-  }
+/* Main Content Styling */
 
-  #secondTag{
-    font-size: 48px;
-    font-weight: normal;
-    padding-left: 80px;
-  }
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
 
-  #thirdTag{
-      font-size: 32px;
-      font-weight: normal;
-      padding-left: 200px;
-  }
+.mainContainer div {
+  display: flex;
+  width: 90vw;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+}
 
-  .mainContainer dd{
-    font-size: 24px;
-    font-weight: normal;
-    padding-left: 250px;
-  }
+#mainTag {
+  font-size: 72px;
+  font-weight: normal;
+  padding: 10px;
+}
 
-  #tresList{
-    list-style-type: disc;
-  }
+#secondTag {
+  font-size: 48px;
+  font-weight: normal;
+  padding-left: 80px;
+}
+
+#thirdTag {
+  font-size: 32px;
+  font-weight: normal;
+  padding-left: 200px;
+}
+
+.mainContainer dd {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+#tresList {
+  list-style-type: disc;
+}
